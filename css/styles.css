@@ -1,0 +1,135 @@
+body{
+    font-family: montserrat, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+/*headings*/
+.main-title{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.2;
+}
+.secondary-title{
+    font-weight: 800;
+}
+.subtitle{
+    font-weight: 700;
+}
+
+/* color section */
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+ /*padding*/
+ .box-padding{
+    padding: 5% 25% 5% 25%;
+}
+
+/*title*/
+.button-download{
+    margin: 5% 3% 0 5%;
+}
+.image-title{
+    -moz-transform: rotate(21deg);
+    -o-transform: rotate(21deg);
+    -webkit-transform: rotate(21deg);
+    transform: rotate(21deg);
+    margin-top: 1rem;
+    width: 24%;
+    position: absolute;
+    right: 8rem;
+    bottom: -8rem;
+    z-index: 1;
+}
+
+#title{
+    text-align: left;
+}
+
+/*Navbar*/
+.container-fluid{
+    padding: 0 5%;
+}
+.nav{
+    color:#fff;
+}
+
+.navbar{
+    padding: 0 0 2.5rem;
+}
+
+.navbar-brand{
+    font-family: ubuntu,Arial;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.nav-item{
+    padding: .18rem;
+}
+
+/*Feature*/
+#features{
+    padding: 7% 15%;
+}
+.features-icon{
+    color: #ef8172;
+    margin: 10%;
+    transform: scale(3);
+    position: relative;
+    z-index: 1;
+}
+
+.features-icon:hover{
+    color: #ff4c68;
+}
+
+
+/*Testimonial Section*/
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonials{
+    background-color: #ef8172;
+    color: #FFF;
+    padding: 3%;
+}
+
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 180px;
+}
+
+/*press*/
+.press-image{
+    width: 15%;
+}
+
+
+/*pricing*/
+#pricing{
+    padding: 3% 0 3% 0;
+}
+
+/*call to action*/
+
+
+/*footer*/
+.social-icon{
+    margin: 2% 2% 5% 2%;
+    color: black;
+}
+
+/*media queries*/
+@media (max-width:768px){
+    body{
+        text-align: center;
+    }
+    /*title*/
+    .image-title{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+}
